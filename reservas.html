@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas - Peluquería Estilo Barrio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+
+<div class="background-logo"></div>
+
+<section class="reservas-page">
+    <h2>Reservar cita</h2>
+
+    <form id="formReserva">
+        <label>Nombre</label>
+        <input type="text" required>
+
+        <label>Teléfono</label>
+        <input type="tel" required>
+
+        <label>Tipo de corte</label>
+        <select required>
+            <option value="">Selecciona...</option>
+            <option>Corte Hombre</option>
+            <option>Corte Mujer</option>
+            <option>Corte Niño</option>
+        </select>
+
+        <label>Fecha</label>
+        <input type="date" required>
+
+        <label>Hora</label>
+        <input type="time" required>
+
+        <button type="submit" class="btn">Confirmar</button>
+    </form>
+
+    <p id="mensaje"></p>
+
+    <a href="index.html" class="volver">Volver al inicio</a>
+</section>
+
+</body>
+</html>
